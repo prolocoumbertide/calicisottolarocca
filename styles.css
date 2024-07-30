@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Monstra+One:wght@700&display=swap');
+
 body {
     background-color: #F9C4A7;
     font-family: Arial, sans-serif;
@@ -15,6 +17,7 @@ header {
 header h1 {
     margin: 0;
     color: #F9C4A7;
+    font-family: 'Monstra One', sans-serif;
 }
 
 header p {
@@ -26,9 +29,14 @@ main {
     padding: 20px;
 }
 
+h2 {
+    font-family: 'Monstra One', sans-serif;
+    color: #E2654E;
+}
+
 .btn {
     display: inline-block;
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 10px 20px;
     background-color: #396139;
     color: #F9C4A7;
@@ -39,6 +47,14 @@ main {
 .btn:hover {
     background-color: #E2654E;
     color: #396139;
+}
+
+.instagram-btn {
+    background-color: #E1306C;
+}
+
+.instagram-btn:hover {
+    background-color: #C13584;
 }
 
 footer {
