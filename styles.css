@@ -31,7 +31,7 @@ main {
 
 h2 {
     font-family: 'Monstra One', sans-serif;
-    color: #396139;
+    color: #E2654E;
 }
 
 .btn {
@@ -55,6 +55,10 @@ h2 {
 
 .instagram-btn:hover {
     background-color: #C13584;
+}
+
+.instagram-btn i {
+    margin-right: 8px;
 }
 
 footer {
