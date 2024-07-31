@@ -145,33 +145,3 @@ a:active {
     font-family: 'Oswald', sans-serif;
     color: #396139;
 }
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    header {
-        padding: 10px;
-    }
-
-    header .logo {
-        width: 90%;
-    }
-
-    .btn {
-        width: 80%;
-    }
-
-    .logo-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media (max-width: 480px) {
-    header .logo {
-        width: 90%;
-    }
-
-    .btn {
-        width: 80%;
-    }
-}
