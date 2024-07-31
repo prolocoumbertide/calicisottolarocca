@@ -5,7 +5,8 @@
 .left-image, .right-image {
     width: 20%;
     height: auto;
-    margin: 10px;
+    position: absolute;
+    top: 0;
 }
 
 .text-container {
@@ -15,11 +16,16 @@
 }
 
 .left-image {
-    float: left;
+    left: 0;
 }
 
 .right-image {
-    float: right;
+    right: 0;
+}
+
+#about {
+    position: relative;
+    padding: 0 20%;
 }
 
 body {
@@ -98,7 +104,7 @@ footer {
 }
 
 .logo-grid img {
-    width: 100px;
+    width: 50px;
     height: auto;
 }
 
@@ -152,7 +158,7 @@ a:active {
     }
 
     .logo-grid img {
-        width: 80px;
+        width: 40px;
     }
 }
 
@@ -166,6 +172,6 @@ a:active {
     }
 
     .logo-grid img {
-        width: 60px;
+        width: 30px;
     }
 }
