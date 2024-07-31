@@ -55,15 +55,7 @@ h2 {
     color: #396139;
 }
 
-.instagram-btn {
-    background-color: #E1306C;
-}
-
-.instagram-btn:hover {
-    background-color: #C13584;
-}
-
-.instagram-btn i {
+.btn i {
     margin-right: 8px;
 }
 
@@ -105,7 +97,7 @@ ul li {
     }
 
     header .logo {
-        width: 40px;
+        width: 100px;
     }
 
     .btn, .instagram-btn {
