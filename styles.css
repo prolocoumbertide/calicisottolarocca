@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@400&display=swap');
 
-image {
-    width: 100px;
-    height: auto;
+.image {
+    width: auto;
+    height: 100px;
+    max-height: 100px;
 }
 
 body {
