@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
+/* styles.css */
+
+.left-image, .right-image {
+    width: 20%;
+    height: auto;
+    margin: 10px;
+}
+
+.text-container {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+
+.left-image {
+    float: left;
+}
+
+.right-image {
+    float: right;
+}
+
 body {
     background-color: #F9C4A7;
     font-family: 'Oswald', sans-serif;
