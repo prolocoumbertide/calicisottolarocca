@@ -98,7 +98,7 @@ footer {
 
 .logo-grid {
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(3, 50%);
     gap: 5px;
     max-width: 60%;
     margin: auto auto;
