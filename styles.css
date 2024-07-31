@@ -100,10 +100,9 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 25%);
     gap: 5px;
-    max-width: 60%;
+    max-width: 40%;
     margin: auto auto;
     justify-items: center;
-    left: 50%;
 }
 
 .logo-grid img {
