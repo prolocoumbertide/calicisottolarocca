@@ -24,13 +24,13 @@ header h1 {
     margin: 0;
     color: #F9C4A7;
     font-family: 'Oswald', sans-serif;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 header p {
     margin: 0;
     color: #F9C4A7;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 main {
@@ -40,7 +40,7 @@ main {
 h2 {
     font-family: 'Oswald', sans-serif;
     color: #E2654E;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .btn {
