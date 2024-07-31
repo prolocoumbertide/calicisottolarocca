@@ -89,6 +89,27 @@ ul li {
     margin: 5px 0;
 }
 
+a:link {
+    font-family: 'Oswald', sans-serif;
+    color:  #396139;
+      
+}
+
+a:visited {
+    font-family: 'Oswald', sans-serif;
+    color: ##E2654E;
+}
+
+a:hover {
+    font-family: 'Oswald', sans-serif;
+    color: #E2654E;
+}
+
+a:active {
+    font-family: 'Oswald', sans-serif;
+    color: #E2654E;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header {
