@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@400&display=swap');
 
-/* styles.css */
-
-.left-image, .right-image {
+/*.left-image, .right-image {
     width: 10%;
     height: auto;
     position: absolute;
@@ -26,6 +24,11 @@
 #about {
     position: relative;
     padding: 0 10%;
+}*/
+
+image {
+    width: 10%;
+    height: auto;
 }
 
 body {
