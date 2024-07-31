@@ -101,7 +101,8 @@ footer {
     max-width: 40%;
     margin: 0 auto;
     grid-template-columns: repeat(2, 120px);
-    gap: 5;
+    gap: 5px;
+    padding: 10px;
     justify-items: center;
 }
 
@@ -128,7 +129,6 @@ ul li {
 a:link {
     font-family: 'Oswald', sans-serif;
     color:  #396139;
-      
 }
 
 a:visited {
