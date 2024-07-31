@@ -75,7 +75,7 @@ h2 {
     display: inline-block;
     margin: 10px auto;
     padding: 10px 20px;
-    background-color: #396139;
+    background-color:  #E2654E;
     color: #F9C4A7;
     text-decoration: none;
     border-radius: 5px;
@@ -130,17 +130,17 @@ a:link {
 
 a:visited {
     font-family: 'Oswald', sans-serif;
-    color: ##E2654E;
+    color: #396139;
 }
 
 a:hover {
     font-family: 'Oswald', sans-serif;
-    color: #E2654E;
+    color: #396139;
 }
 
 a:active {
     font-family: 'Oswald', sans-serif;
-    color: #E2654E;
+    color: #396139;
 }
 
 /* Responsive Design */
