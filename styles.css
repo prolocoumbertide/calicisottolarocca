@@ -101,8 +101,10 @@ footer {
     grid-template-columns: repeat(2, 25%);
     gap: 5px;
     max-width: 60%;
-    margin: 0 auto;
+    margin: auto auto;
     justify-items: center;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .logo-grid img {
