@@ -100,7 +100,7 @@ footer {
     display: grid;
     max-width: 40%;
     margin: 0 auto;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 120px);
     gap: 5;
     justify-items: center;
 }
@@ -108,7 +108,7 @@ footer {
 .logo-grid img {
     width: 100px;
     height: auto;
-    max-width: 100%;
+    max-width: 100px;
     height: auto;
 }
 
