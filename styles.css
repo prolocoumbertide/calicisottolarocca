@@ -109,15 +109,12 @@ footer {
     width: 100px;
     height: auto;
     margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     max-width: 100%;
     height: auto;
 }
 
 .logo-grid img:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 ul {
