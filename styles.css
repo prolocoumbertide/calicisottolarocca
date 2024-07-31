@@ -79,6 +79,12 @@ h3 {
     color: #396139;
 }
 
+p { 
+    font-family: 'Roboto', sans-serif;
+    color: #396139;
+    text-align: left;
+}
+
 .btn {
     display: inline-block;
     margin: auto auto;
