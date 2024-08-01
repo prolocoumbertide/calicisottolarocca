@@ -144,12 +144,6 @@ a:active {
     color: #396139;
 }
 
-.highlight {
-  animation: highlight-animation 0.5s;
-  background-color: yellow;
-  transform: scale(1.25);
-    }
-
 /* tablet and pc */
 @media (min-width: 768px) {
   .photo {
