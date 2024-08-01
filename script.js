@@ -1,38 +1,27 @@
-const saltafilaLink = document.getElementById('saltafila-link');
-const contactsSection = document.getElementById('contacts');
-let highlightRemoved = false;
-
-if (saltafilaLink && contactsSection) {
-  saltafilaLink.addEventListener('click', () => {
-    contactsSection.classList.add('highlight');
-
-    // Add smooth scrolling
-    contactsSection.scrollIntoView({
-      behavior: 'smooth'
-    });
-
-    // Remove highlight class after animation is complete
-    contactsSection.addEventListener('transitionend', () => {
-      contactsSection.classList.remove('highlight');
-    });
-  });
-}
-
-if (saltafilaLink && contactsSection) {
-  saltafilaLink.addEventListener('touchstart', () => {
-    contactsSection.classList.add('highlight');
-    
-    // Add smooth scrolling
-    contactsSection.scrollIntoView({
-      behavior: 'smooth'
-    });
-
-    // Remove highlight class after animation is complete
-    contactsSection.addEventListener('animationend', () => {
-      if (!highlightRemoved) {
-        contactsSection.classList.remove('highlight');
-        highlightRemoved = true;
-      }
-    });
-  });
-}
+function smoothScrollToContacts() {
+            const contactsSection = document.getElementById('contacts');
+            if ('scrollBehavior' in document.documentElement.style) {
+                // For modern browsers that support scrollBehavior
+                contactsSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            } else {
+                // For older browsers and mobile browsers that don't support scrollBehavior
+                const startY = window.scrollY;
+                const endY = contactsSection.offsetTop;
+                const distance = endY - startY;
+                const duration = 500; // adjust the duration to your liking
+                const startTime = performance.now();
+                function animateScroll() {
+                    const currentTime = performance.now();
+                    const elapsed = currentTime - startTime;
+                    const progress = elapsed / duration;
+                    const newY = startY + (distance * progress);
+                    window.scrollTo(0, newY);
+                    if (progress < 1) {
+                        requestAnimationFrame(animateScroll);
+                    }
+                }
+                animateScroll();
+            }
+        }
