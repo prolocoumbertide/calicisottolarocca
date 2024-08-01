@@ -146,11 +146,9 @@ a:active {
 
 .highlight {
   animation: highlight-animation 0.5s;
-    @keyframes highlight-animation {
-        background-color: yellow;
-        transform: scale(1.25);
+  background-color: yellow;
+  transform: scale(1.25);
     }
-}
 
 /* tablet and pc */
 @media (min-width: 768px) {
