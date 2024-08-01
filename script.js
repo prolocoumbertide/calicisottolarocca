@@ -3,4 +3,14 @@ const contactsSection = document.getElementById('contacts');
 
 saltafilaLink.addEventListener('click', () => {
   contactsSection.classList.add('highlight');
+
+  const scrollOffset = contactsSection.offsetTop;
+  window.scrollTo({
+    top: scrollOffset,
+    behavior: 'smooth'
+  });
+
+  setTimeout(() => {
+    contactsSection.classList.remove('highlight');
+  }, 500);
 });
