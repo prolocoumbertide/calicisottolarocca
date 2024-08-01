@@ -97,7 +97,7 @@ footer {
 
 .logo-grid {
     display: grid;
-    width: 100%;
+    width: 95%;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     margin: 0 auto;
@@ -146,7 +146,7 @@ a:active {
 }
 
 .highlight {
-  background-color: #ffff99; /* or any other highlight color you prefer */
+  background-color: #ffff99;
   padding: 10px;
   border-radius: 10px;
   transform: scale(1.25);
