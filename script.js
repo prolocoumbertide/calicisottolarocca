@@ -11,7 +11,7 @@ if (saltafilaLink && contactsSection) {
     });
 
     // Remove highlight class after animation is complete
-    requestAnimationFrame(() => {
+    contactsSection.addEventListener('transitionend', () => {
       contactsSection.classList.remove('highlight');
     });
   });
