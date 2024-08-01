@@ -141,3 +141,10 @@ a:active {
     font-family: 'Oswald', sans-serif;
     color: #396139;
 }
+
+/* tablet and pc */
+@media (min-width: 768px) {
+  .photo {
+    width: 50%;
+  }
+}
