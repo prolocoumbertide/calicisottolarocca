@@ -97,7 +97,7 @@ footer {
     max-width: 60%;
     grid-template-columns: repeat(4, 25%);
     gap: 5px;
-    margin: auto auto;
+    margin: 0 auto;
     justify-items: center;
 }
 
