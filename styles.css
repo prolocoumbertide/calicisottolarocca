@@ -159,6 +159,7 @@ a:active {
       transform: scale(0.8);
   }
 }
+}
 
 /* tablet and pc */
 @media (min-width: 768px) {
