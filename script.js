@@ -6,9 +6,7 @@ if (saltafilaLink && contactsSection) {
     contactsSection.classList.add('highlight');
 
     // Add smooth scrolling
-    const scrollOffset = contactsSection.offsetTop;
-    window.scrollIntoView({
-      top: scrollOffset,
+    contactsSection.scrollIntoView({
       behavior: 'smooth'
     });
 
