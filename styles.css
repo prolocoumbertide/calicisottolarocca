@@ -9,7 +9,6 @@
 .photo {
     width: 100%;
     height: auto;
-    margin: -20px;
 }
 
 body {
@@ -49,7 +48,7 @@ header p {
 }
 
 main {
-    padding: 20px;
+    padding: 10px;
 }
 
 h2 {
