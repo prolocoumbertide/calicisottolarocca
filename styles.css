@@ -96,7 +96,7 @@ footer {
 }
 
 .logo-grid {
-    display: block;
+    display: grid;
     width: 100%;
     max-width: 60%;
     grid-template-columns: repeat(4, 25%);
