@@ -48,7 +48,7 @@ header p {
 }
 
 main {
-    padding: 10px;
+    padding-block: 10px;
 }
 
 h2 {
