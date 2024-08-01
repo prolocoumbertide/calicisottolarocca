@@ -36,6 +36,7 @@ header .logo {
 
 header h1 {
     margin: 0;
+    padding: 0;
     color: #F9C4A7;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -60,6 +61,8 @@ h2 {
     font-family: 'Oswald', sans-serif;
     color: #E2654E;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
 }
 
 h3 {
@@ -94,7 +97,7 @@ footer {
 
 .logo-grid {
     display: block;
-    width:100%;
+    width: 100%;
     max-width: 60%;
     grid-template-columns: repeat(4, 25%);
     gap: 5px;
