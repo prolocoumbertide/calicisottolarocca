@@ -146,19 +146,10 @@ a:active {
 
 .highlight {
   animation: highlight-animation 0.5s;
-@keyframes highlight-animation {
-  0% {
-    background-color: transparent;
-  }
-  50% {
-    background-color: yellow;
-    transform: scale(1.25);
-  }
-  100% {
-    background-color: transparent;
-      transform: scale(0.8);
-  }
-}
+    @keyframes highlight-animation {
+        background-color: yellow;
+        transform: scale(1.25);
+    }
 }
 
 /* tablet and pc */
