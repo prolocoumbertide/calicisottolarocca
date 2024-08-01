@@ -12,5 +12,5 @@ saltafilaLink.addEventListener('click', () => {
 
   setTimeout(() => {
     contactsSection.classList.remove('highlight');
-  }, 500);
+  }, 1000);
 });
